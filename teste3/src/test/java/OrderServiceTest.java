@@ -1,14 +1,12 @@
 import org.example.OrderService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class OrderServiceTest {
 
     private static OrderService orderService;
-
 
     @BeforeAll
     public static void instancia () {
